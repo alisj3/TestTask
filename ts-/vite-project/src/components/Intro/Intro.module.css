@@ -1,0 +1,47 @@
+.intro{
+    background-image: url("/intro_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.intro__text{
+    width: 20%;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(15.5px);
+    padding: 60px;
+    z-index: 1000000;
+    position: absolute;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.intro_h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.intro_p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: #898989;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.button{
+    width: 100%;
+    border-radius: 1px;
+    background-color: #e89f71;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 20px 0px;
+}

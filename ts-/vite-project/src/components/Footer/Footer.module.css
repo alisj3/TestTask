@@ -1,0 +1,54 @@
+footer{
+    background-color: #f3f3f3;
+}
+
+.footer__inner{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_link{
+    font-size: 36px;
+    padding-right: 25px;
+    color: #504f4f;
+}
+
+.services{
+    padding-top: 60px;
+    display: flex;
+}
+
+.services_box{
+    color: #272727;
+    padding-right: 50px;
+}
+
+.services_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.services_box h2{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.services_box a{
+    color: #6f6f6f;
+    font-size: 12px;
+    padding: 8px 0px;
+}
+
+.market{
+    padding: 0px 10px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.footer__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

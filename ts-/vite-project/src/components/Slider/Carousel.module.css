@@ -1,0 +1,15 @@
+.slide{
+    height: 600px;
+    width: 1000px;
+}
+
+.slide_info{
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(15.5px);
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1000000;
+}
